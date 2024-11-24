@@ -176,11 +176,11 @@ const StreamingPage = () => {
           <div className="flex flex-col w-[26%] max-md:w-full h-full gap-2">
             <ReusableVerticalCarousel
               data={animeData.relatedAnimes}
-              title={"RELATED"}
+              title={"Serupa"}
             />
             <ReusableVerticalCarousel
               data={animeData.relatedAnimes}
-              title={"RECOMMENDATION"}
+              title={"Rekomendasi"}
             />
           </div>
         </div>
