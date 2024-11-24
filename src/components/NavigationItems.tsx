@@ -20,17 +20,17 @@ const components: { title: string; href: string; description: string }[] = [
   {
     title: "Trending Manga",
     href: "/docs/primitives/alert-dialog",
-    description: "Sends you to the Trending manga page.",
+    description: "Membawa Kehalaman Trending Manga.",
   },
   {
-    title: "Popular Manga",
+    title: "Populer Manga",
     href: "/docs/primitives/hover-card",
-    description: "Sends you to the Popular manga page.",
+    description: "Membawa Kehalaman Populer Manga",
   },
   {
-    title: "Recent Manga",
+    title: "Manga Terkini",
     href: "/docs/primitives/progress",
-    description: "Sends you to the Recent manga page.",
+    description: "Membawa Kehalaman Manga Terkini.",
   },
 ];
 
@@ -57,13 +57,13 @@ export default function NavigationMenuDemo() {
                 </NavigationMenuLink>
               </li>
               <ListItem href="/pages/Anime/" title="Popular">
-                Explore Popular Anime.
+                Telusuri Populer Anime.
               </ListItem>
               <ListItem href="/pages/Anime/" title="Trending">
-                Explore Trending Anime.
+                Jelajahi Trend Anime.
               </ListItem>
               <ListItem href="/pages/Anime/" title="Random">
-                Explore Random Anime.
+                Telusuri Random Anime.
               </ListItem>
             </ul>
           </NavigationMenuContent>
@@ -83,13 +83,13 @@ export default function NavigationMenuDemo() {
                 </NavigationMenuLink>
               </li>
               <ListItem href="/pages/Manga/" title="Popular">
-                Explore Popular Manga.
+                Telusuri Populer Manga.
               </ListItem>
               <ListItem href="/pages/Manga/" title="Trending">
-                Explore Trending Manga.
+                Jelajahi Trend Manga.
               </ListItem>
               <ListItem href="/pages/Manga/" title="Random">
-                Explore Random Manga.
+                Telusuri Random Manga.
               </ListItem>
             </ul>
           </NavigationMenuContent>
