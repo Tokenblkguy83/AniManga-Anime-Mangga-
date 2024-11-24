@@ -46,9 +46,9 @@ const Manga = () => {
   return (
     <div className="flex flex-col gap-10 px-10 max-md:px-2 bg-custom">
       <HomeCarousel data={mangaList} />
-      <ReusableCarousel title={"Trending"} data={newestData} />
-      <ReusableCarousel title={"Popular"} data={latestData} />
-      <ReusableStack data={tableData} title={"Top Reads"} />
+      <ReusableCarousel title={"Trend"} data={newestData} />
+      <ReusableCarousel title={"Populer"} data={latestData} />
+      <ReusableStack data={tableData} title={"Pembaca Teratas"} />
       <MangaTable data={tableData} />
     </div>
   );
