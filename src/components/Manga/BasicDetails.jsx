@@ -29,7 +29,7 @@ const BasicDetails = ({ data, id }) => {
             className="w-full max-md:hidden"
             href={`/pages/Manga/read/${id}/chapter-1`}
           >
-            <Button className="w-full">Read Now</Button>
+            <Button className="w-full">Baca Sekarang</Button>
           </Link>
         </div>
         <div className="flex flex-col justify-evenly max-md:text-center max-md:pb-5">
@@ -74,11 +74,11 @@ const BasicDetails = ({ data, id }) => {
           >
             <Button className="flex flex-row gap-3 items-center">
               {" "}
-              <FontAwesomeIcon icon={faBook} /> Read Now
+              <FontAwesomeIcon icon={faBook} /> Baca Sekarang
             </Button>
             <Button className="flex flex-row gap-3 items-center">
               {" "}
-              <FontAwesomeIcon icon={faBookmark} /> Add To
+              <FontAwesomeIcon icon={faBookmark} /> Tambah Ke
             </Button>
           </Link>
           <p className="flex flex-row gap-2 max-md:hidden">
