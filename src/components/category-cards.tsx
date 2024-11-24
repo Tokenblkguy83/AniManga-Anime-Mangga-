@@ -19,7 +19,7 @@ export default function Component() {
             <div>
               <CardTitle className="text-2xl">Anime</CardTitle>
               <p className="text-sm text-muted-foreground">
-                Explore our vast anime collection
+                Jelajahi koleksi anime kami yang luas
               </p>
             </div>
           </CardHeader>
@@ -30,17 +30,10 @@ export default function Component() {
               className="w-full h-[300px] object-cover rounded-md max-md:h-[200px]"
             />
             <p className="text-sm text-muted-foreground hidden md:block">
-              Dive into a world of captivating storytelling, stunning animation,
-              and unforgettable characters. Our anime section offers a diverse
-              range of genres, from action-packed shonen to heartwarming
-              slice-of-life series. Whether you're a seasoned otaku or new to
-              anime, you'll find something to love in our carefully curated
-              collection.
+              Selami dunia penceritaan yang menawan, animasi yang memukau, dan karakter yang tak terlupakan. Bagian anime kami menawarkan beragam berbagai genre, mulai dari Shonen yang penuh aksi hingga yang mengharukan seri irisan kehidupan. Apakah Anda seorang otaku berpengalaman atau baru anime, Anda akan menemukan sesuatu untuk disukai di kami yang dikurasi dengan cermat koleksi.
             </p>
             <p className="text-sm text-muted-foreground block md:hidden">
-              Experience thrilling stories and breathtaking animation across
-              various genres. Whether you're a seasoned fan or a newcomer, our
-              collection has something for everyone.
+              Rasakan kisah-kisah yang mendebarkan dan animasi yang menakjubkan berbagai genre. Apakah Anda seorang penggemar berpengalaman atau pendatang baru, kami koleksi memiliki sesuatu untuk semua orang.
             </p>
           </CardContent>
           <CardFooter>
@@ -67,21 +60,15 @@ export default function Component() {
               className="w-full h-[300px] object-cover rounded-md max-md:h-[200px]"
             />
             <p className="text-sm text-muted-foreground hidden md:block">
-              Immerse yourself in the rich world of Japanese comics. Our manga
-              section features works from renowned mangaka across various
-              genres. From epic sagas that span hundreds of chapters to short,
-              impactful stories, our collection caters to all reading
-              preferences.
+              Benamkan diri Anda dalam dunia komik Jepang yang kaya. Manga kami bagian menampilkan karya-karya dari mangaka terkenal di berbagai macam genre. Dari saga epik yang mencakup ratusan bab hingga pendek, cerita yang berdampak, koleksi kami melayani semua bacaan preferensi.
             </p>
             <p className="text-sm text-muted-foreground block md:hidden">
-              Dive into captivating stories from Japan’s top creators. Our manga
-              collection offers a mix of long-running series and short, powerful
-              narratives that cater to all readers.
+              Selami kisah-kisah menawan dari para pencipta top Jepang. Manga kami Koleksinya menawarkan perpaduan seri jangka panjang dan pendek, kuat narasi yang diperuntukkan bagi semua pembaca.
             </p>
           </CardContent>
           <CardFooter>
             <Link className="w-full" href={"/pages/Manga"}>
-              <Button className="w-full">Explore Manga</Button>
+              <Button className="w-full">Jelajahi Manga</Button>
             </Link>
           </CardFooter>
         </Card>
