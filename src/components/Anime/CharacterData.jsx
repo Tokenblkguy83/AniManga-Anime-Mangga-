@@ -4,7 +4,7 @@ import { Skeleton } from "../ui/skeleton";
 
 const CharacterData = ({ data }) => {
   const [currentLang, setCurrentLang] = useState("Japanese");
-  const availableLangs = ["Japanese", "English", "German", "Spanish"];
+  const availableLangs = ["Jepang", "Ingris", "German", "Spanish"];
 
   const filteredData =
     data &&
@@ -20,7 +20,7 @@ const CharacterData = ({ data }) => {
     return (
       <div className="flex flex-col gap-5 w-full bg-neutral-700/10 p-5 box-shadow rounded-md animated">
         <div className="flex flex-row items-center w-full justify-between">
-          <h1 className="text-2xl">Characters</h1>
+          <h1 className="text-2xl">Karakter</h1>
           <Selector onClick={handleLanguage} />
         </div>
         <div className="grid grid-cols-3 grid-rows-auto max-md:grid-cols-1 justify-between gap-5 w-full">
@@ -45,7 +45,7 @@ const CharacterData = ({ data }) => {
   return (
     <div className="flex flex-col gap-5 w-full bg-neutral-700/10 p-5 box-shadow rounded-md animated">
       <div className="flex flex-row items-center w-full justify-between">
-        <h1 className="text-2xl">Characters</h1>
+        <h1 className="text-2xl">Karakter</h1>
         <Selector onClick={handleLanguage} />
       </div>
       <div className="grid grid-cols-3 grid-rows-auto max-md:grid-cols-1 justify-between gap-5 w-full">
@@ -79,7 +79,7 @@ const CharacterData = ({ data }) => {
             );
           })
         ) : (
-          <h1>Characters Data Not Found {":)"} </h1>
+          <h1>Data Karakter Tidak Ditemukan{":)"} </h1>
         )}
       </div>
     </div>
