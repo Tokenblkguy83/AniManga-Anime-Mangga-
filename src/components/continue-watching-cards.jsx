@@ -65,12 +65,12 @@ export default function ContinueWatchingCard() {
   return (
     <div className="grid gap-6 md:grid-cols-2">
       <ContinueCard
-        title="Continue Watching"
+        title="Lanjut Menonton"
         items={continueWatching}
         type="anime"
       />
       <ContinueCard
-        title="Continue Reading"
+        title="Lanjut Membaca"
         items={continueReading}
         type="manga"
       />
@@ -129,7 +129,7 @@ function ContinueCard({ title, items, type }) {
         </ScrollArea>
       </CardContent>
       <CardFooter>
-        <Button className="w-full">View All</Button>
+        <Button className="w-full">Lihat Semua</Button>
       </CardFooter>
     </Card>
   );
