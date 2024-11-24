@@ -116,7 +116,7 @@ export default function Header() {
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <span className="hidden font-bold text-xl sm:inline-block">
-              AnymeY
+              AniManga
             </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium ml-5">
@@ -165,7 +165,7 @@ export default function Header() {
                   stroke-linejoin="round"
                 ></path>
               </svg>
-              <span className="sr-only">Toggle Menu</span>
+              <span className="sr-only">Menu Pengaturan</span>
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="pr-0">
@@ -190,7 +190,7 @@ export default function Header() {
           </div>
           <nav className="flex items-center">
             <Link
-              href="https://github.com/RyanYuuki/anyme-next"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
