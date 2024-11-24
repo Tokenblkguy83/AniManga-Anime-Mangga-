@@ -19,7 +19,7 @@ const VideoPlayer = ({
   setDuration,
 }) => {
   const captions = captionsData.filter(
-    (caption) => caption.kind === "captions"
+    (caption) => caption.kind === "Keterangan"
   );
   const thumbnails = captionsData.filter(
     (caption) => caption.kind === "thumbnails"
