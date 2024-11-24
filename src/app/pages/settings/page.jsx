@@ -34,7 +34,7 @@ export default function SettingsPage() {
                 onClick={() => setActiveTab("sources")}
               >
                 <Rss className="mr-2 h-4 w-4" />
-                Sources
+                Sumber
               </Button>
               <Button
                 variant={activeTab === "themes" ? "default" : "ghost"}
@@ -42,7 +42,7 @@ export default function SettingsPage() {
                 onClick={() => setActiveTab("themes")}
               >
                 <Palette className="mr-2 h-4 w-4" />
-                Appearance
+                Preferensi
               </Button>
               <Button
                 variant={activeTab === "video-player" ? "default" : "ghost"}
@@ -50,7 +50,7 @@ export default function SettingsPage() {
                 onClick={() => setActiveTab("video-player")}
               >
                 <Play className="mr-2 h-4 w-4" />
-                Video Player
+                Pemutar Vidio
               </Button>
               <Button
                 variant={activeTab === "other" ? "default" : "ghost"}
@@ -58,7 +58,7 @@ export default function SettingsPage() {
                 onClick={() => setActiveTab("other")}
               >
                 <Cog className="mr-2 h-4 w-4" />
-                Advanced
+                Lebih Lanjut
               </Button>
             </nav>
           </ScrollArea>
@@ -102,13 +102,13 @@ function SourcesTab() {
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Sources</h2>
         <p className="text-muted-foreground">
-          Manage your anime and manga sources.
+          Atur Sumber Anime Dan Mangamu.
         </p>
       </div>
       <Separator />
       <div className="space-y-6">
         <div className="space-y-2">
-          <Label htmlFor="anime-source">Default Anime Source</Label>
+          <Label htmlFor="anime-source">Default Sumber Anime</Label>
           <Select onValueChange={handleSource} >
             <SelectTrigger className="bg-background/50">
               <SelectValue placeholder={currentSource == 'aniwatch' ? 'Aniwatch' : 'Consumet'} />
@@ -120,7 +120,7 @@ function SourcesTab() {
           </Select>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="manga-source">Default Manga Source</Label>
+          <Label htmlFor="manga-source">Default Sumber Manga</Label>
           <Select>
             <SelectTrigger className="bg-background/50">
               <SelectValue placeholder="MangaKakalot" />
@@ -152,7 +152,7 @@ function ThemesTab() {
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Appearance</h2>
         <p className="text-muted-foreground">
-          Customize the look and feel of the application.
+          Atur Sesuai Keinginan Mu.
         </p>
       </div>
       <Separator />
@@ -203,17 +203,17 @@ function VideoPlayerTab() {
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Video Player</h2>
         <p className="text-muted-foreground">
-          Customize your video playback experience.
+          Atur Kecepatan Pemutaran. 
         </p>
       </div>
       <Separator />
       <div className="space-y-6">
         <div className="flex items-center justify-between">
-          <Label htmlFor="autoplay">Autoplay Next Episode</Label>
+          <Label htmlFor="autoplay">Autoplay Episode Selanjutnya</Label>
           <Switch id="autoplay" />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="quality">Default Quality</Label>
+          <Label htmlFor="quality">Kualitas Bawaan</Label>
           <Select>
             <SelectTrigger className="bg-background/50">
               <SelectValue placeholder="Select default quality" />
@@ -227,7 +227,7 @@ function VideoPlayerTab() {
           </Select>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="playback-speed">Default Playback Speed</Label>
+          <Label htmlFor="playback-speed"> Kecepatan Pemutaran</Label>
           <Select>
             <SelectTrigger className="bg-background/50">
               <SelectValue placeholder="Select playback speed" />
@@ -251,17 +251,17 @@ function AdvancedSettingsTab() {
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Advanced Settings</h2>
         <p className="text-muted-foreground">
-          Configure advanced options for AnymeY.
+          Pengaturan Lanjutan AniManga.
         </p>
       </div>
       <Separator />
       <div className="space-y-6">
         <div className="flex items-center justify-between">
-          <Label htmlFor="notifications">Enable Notifications</Label>
+          <Label htmlFor="notifications">Aktifkan Notifikasi</Label>
           <Switch id="notifications" />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="language">Language</Label>
+          <Label htmlFor="language">Bahasa</Label>
           <Select>
             <SelectTrigger className="bg-background/50">
               <SelectValue placeholder="Select language" />
