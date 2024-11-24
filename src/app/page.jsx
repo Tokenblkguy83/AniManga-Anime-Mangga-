@@ -13,14 +13,13 @@ export default function Component() {
               <div className="order-0 max-md:order-1 flex flex-col justify-center space-y-6">
                 <div>
                   <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm dark:bg-muted dark:text-muted-foreground">
-                    Featured
+                    Fitur AniManga
                   </div>
                   <h1 className="mt-2 text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-                    Dive into the World of Anime and Manga
+                    Menyelam Lebih Dalam Dengan Anime Dan Manga
                   </h1>
                   <p className="mt-4 text-muted-foreground md:text-xl dark:text-muted-foreground">
-                    Explore the latest and greatest anime and manga content,
-                    updated daily.
+                    Telusuri Terakhir Dan Terbaik Anime Dan Manga 
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -29,14 +28,14 @@ export default function Component() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 dark:bg-primary dark:text-primary-foreground"
                     prefetch={false}
                   >
-                    Explore Anime
+                    Telusuri Anime
                   </Link>
                   <Link
                     href="/pages/Manga"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 dark:bg-background dark:border-input dark:text-foreground dark:hover:bg-accent dark:hover:text-accent-foreground"
                     prefetch={false}
                   >
-                    Explore Manga
+                    Telusuri Manga
                   </Link>
                 </div>
               </div>
@@ -58,10 +57,10 @@ export default function Component() {
                   Info
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Find Anime and Manga in one place!
+                  Temukan Anime Dan Manga Di Satu Tempat
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-muted-foreground">
-                  Check out the newest additions to our library, updated daily.
+                  Cek Informasi Terbaru Mengenai Update Anime Dan Manga Harian
                 </p>
               </div>
             </div>
@@ -73,13 +72,13 @@ export default function Component() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm dark:bg-muted dark:text-muted-foreground">
-                  New Releases
+                  Baru Rilis
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Discover the Latest Anime and Manga
+                  Lihat Anime Dan Manga Terbaru
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-muted-foreground">
-                  Check out the newest additions to our library, updated daily.
+                  Cek Informasi Terbaru Mengenai Update Anime Dan Manga Harian
                 </p>
               </div>
             </div>
@@ -100,9 +99,9 @@ export default function Component() {
                   Attack on Titan: Final Season
                 </div>
                 <div className="line-clamp-2 text-sm leading-snug text-muted-foreground dark:text-muted-foreground">
-                  Just one word, <b>MASTERPIECE</b>.
+                  Satu Satunya Didunia, <b>MASTERPIECE</b>.
                 </div>
-                <Button className="mt-3">Watch Now {">"}</Button>
+                <Button className="mt-3">Tonton Sekarang {">"}</Button>
               </Link>
               <Link
                 href="/pages/Manga/details/manga-dn980422"
@@ -120,9 +119,9 @@ export default function Component() {
                   Chainsaw Man
                 </div>
                 <div className="line-clamp-2 text-sm leading-snug text-muted-foreground dark:text-muted-foreground">
-                  One of the best manga! Pretty dark tho
+                  Salah Satu Anime Terbaik, Yang Cukup Gelap
                 </div>
-                <Button className="mt-3">Read Now {">"}</Button>
+                <Button className="mt-3">Baca Sekarang {">"}</Button>
               </Link>
             </div>
           </div>
@@ -132,14 +131,13 @@ export default function Component() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm dark:bg-muted dark:text-muted-foreground">
-                  Popular This Week
+                  Populer Minggu Ini
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  The Most Watched Anime and Manga
+                  Anime Dan Manga Paling Sering Dilihat
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-muted-foreground">
-                  Check out the most popular anime and manga content on our
-                  platform this week.
+                  Cek Anime Dan Manga Populer Di Platform Lainnya
                 </p>
               </div>
             </div>
@@ -162,7 +160,7 @@ export default function Component() {
                 <div className="line-clamp-2 text-sm leading-snug text-muted-foreground dark:text-muted-foreground">
                   Journey of Monkey D Luffy to Become the king of pirates.
                 </div>
-                <Button className="mt-3">Watch Now {">"}</Button>
+                <Button className="mt-3">Tonton Sekarang {">"}</Button>
               </Link>
               <Link
                 href="/pages/Manga/details/manga-to970571"
@@ -180,9 +178,9 @@ export default function Component() {
                   Demon Slayer
                 </div>
                 <div className="line-clamp-2 text-sm leading-snug text-muted-foreground dark:text-muted-foreground">
-                  Action filled anime with amazing characters and animation.
+                  anime Aksi Dengan Animasi Dan Aksi Yang Luar Biasa.
                 </div>
-                <Button className="mt-3">Read Now {">"}</Button>
+                <Button className="mt-3">Baca Sekarang {">"}</Button>
               </Link>
             </div>
           </div>
