@@ -39,7 +39,7 @@ export default function BigCarousel({ data }) {
             <div className="text-white rounded-[5px] relative">
               <img
                 src={item.poster}
-                alt="Cover Image"
+                alt="Sampul Halaman"
                 className="w-full h-[400px] object-cover max-md:h-[300px]"
               />
               <div className="absolute inset-0 custom-gradient"></div>
@@ -66,7 +66,7 @@ export default function BigCarousel({ data }) {
                 <div className="flex flex-row gap-5">
                   <Link href={`/pages/Anime/watch/${item.id}`}>
                     <Button className="flex flex-row gap-1 px-[18px] py-[8px] max-md:py-[0px] max-md:px-[10px] rounded-3xl transition-all duration-500 hover:scale-110 active:scale-75 bg-white text-black">
-                      <FontAwesomeIcon icon={faPlay} /> Watch Now
+                      <FontAwesomeIcon icon={faPlay} /> Tonton Sekarang
                     </Button>
                   </Link>
                   <Link href={`/pages/Anime/details/${item.id}`}>
