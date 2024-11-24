@@ -56,7 +56,7 @@ const EstimatedSchedule = () => {
   return (
     <div className="flex flex-col gap-5 w-full">
       <h2 className="text-3xl font-semibold border-l-8 border-l-ring px-5">
-        Estimated Schedule
+        Perkiraan Jadwal
       </h2>
       <div className="flex flex-col gap-5 justify-center items-center bg-neutral-700/30 p-5 rounded-md">
         <div className="flex flex-row gap-3 w-full">
