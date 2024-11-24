@@ -14,13 +14,13 @@ function EpisodeSelect({ onClick }) {
   return (
     <Select onValueChange={onClick} >
       <SelectTrigger className="w-[180px] bg-neutral-700/70">
-        <SelectValue placeholder="Japanese" />
+        <SelectValue placeholder="Jepang" />
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
-          <SelectLabel >Language</SelectLabel>
-          <SelectItem value="Japanese">Japanese</SelectItem>
-          <SelectItem value="English">English</SelectItem>
+          <SelectLabel >Bahasa</SelectLabel>
+          <SelectItem value="Japanese">Jepang</SelectItem>
+          <SelectItem value="English">Ingris</SelectItem>
         </SelectGroup>
       </SelectContent>
     </Select>
