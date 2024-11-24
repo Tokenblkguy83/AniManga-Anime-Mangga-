@@ -60,9 +60,9 @@ export function TabsDemo({ data }) {
       className="mt-1 w-full bg-neutral-700/20 p-2 rounded-md pb-10"
     >
       <TabsList className="grid w-full grid-cols-3 bg-neutral-600/20">
-        <TabsTrigger value="today">Today</TabsTrigger>
-        <TabsTrigger value="week">Week</TabsTrigger>
-        <TabsTrigger value="month">Month</TabsTrigger>
+        <TabsTrigger value="today">Hari</TabsTrigger>
+        <TabsTrigger value="week">Minggu</TabsTrigger>
+        <TabsTrigger value="month">Bulan</TabsTrigger>
       </TabsList>
       <TabsContent value="today">
         <div className="flex flex-col">
