@@ -45,12 +45,12 @@ const AnimeDetailsPage = () => {
         )}
       <ReusableCarouselAlt
         className={"mt-5"}
-        title={"Related"}
+        title={"Serupa"}
         data={data?.relatedAnimes || []}
       />
       <ReusableCarouselAlt
         className={"mt-5"}
-        title={"Recommendations"}
+        title={"Rekomendasi"}
         data={data?.recommendedAnimes || []}
       />
       {data?.mostPopularAnimes.length > 0 && (
