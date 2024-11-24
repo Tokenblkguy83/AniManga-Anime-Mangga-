@@ -46,14 +46,14 @@ const page = () => {
       />
       <ContinueWatching />
       <ReusableCarousel
-        title={"Trending"}
+        title={"Trend"}
         data={
           isLoading(TrendingData) ? animeData.top10Animes.today : TrendingData
         }
         isLoading={isLoading(TrendingData)}
       />
       <ReusableCarousel
-        title={"Popular"}
+        title={"Populer"}
         data={
           isLoading(popularData) ? animeData.top10Animes.month : popularData
         }
@@ -70,7 +70,7 @@ const page = () => {
         isLoading={isLoading(tableData)}
       />
       <ReusableCardStacks
-        title={"Upcoming Animes"}
+        title={"Akan Datang"}
         data={
           isLoading(upcomingAnimesData)
             ? animeData.topUpcomingAnimes
@@ -82,7 +82,7 @@ const page = () => {
       <ReusableCardStacks
         withGenres={true}
         genresData={isLoading(genreData) ? animeData.genres : genreData}
-        title={"Latest Episodes"}
+        title={"Episode Terakhir"}
         data={
           isLoading(cardStackData)
             ? animeData.latestEpisodeAnimes
