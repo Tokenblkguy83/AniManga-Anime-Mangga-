@@ -53,14 +53,14 @@ const BasicDetails = ({ data, page = "Details", className }) => {
         </Link>
         <button
           className="p-[12px] text-[14px] max-md:p-2 max-md:text-[10px] bg-neutral-700/20 box-shadow rounded-md font-semibold hover:bg-indigo-400 transition-full"
-          aria-label="Watch Trailer"
+          aria-label="Tonton Trailer"
         >
           TRAILER
         </button>
         <div className="flex flex-row justify-between">
           <button
             className="p-[12px] text-[14px] max-md:p-2 max-md:text-[10px] w-[45%] bg-neutral-700/20 box-shadow rounded-md font-semibold hover:bg-indigo-400 transition-full"
-            aria-label="Action"
+            aria-label="Aksi"
           >
             A
           </button>
@@ -99,25 +99,25 @@ const BasicDetails = ({ data, page = "Details", className }) => {
         <div className="fix-text flex flex-row max-md:flex-col justify-between h-full max-md:text-[13px] text-primary/60">
           <div className="flex flex-col justify-evenly max-md:justify-start h-full">
             <p>
-              Japanese:{" "}
+              Jepang :{" "}
               <span className="font-semibold text-primary">
                 {data.moreInfo.japanese}
               </span>
             </p>
             <p>
-              Aired:{" "}
+              Ditayangkan :{" "}
               <span className="font-semibold text-primary">
                 {data.moreInfo.aired}
               </span>
             </p>
             <p>
-              Premiered:{" "}
+              Perdana :{" "}
               <span className="font-semibold text-primary">
                 {data.moreInfo.premiered}
               </span>
             </p>
             <p>
-              Episodes (SUB):{" "}
+              Episode (SUB):{" "}
               <span className="font-semibold text-primary">
                 {data.info.stats.episodes.sub || "0"}
               </span>
@@ -125,13 +125,13 @@ const BasicDetails = ({ data, page = "Details", className }) => {
           </div>
           <div className="flex flex-col justify-evenly max-md:justify-start h-full">
             <p>
-              Episodes (DUB):{" "}
+              Episode (DUB):{" "}
               <span className="font-semibold text-primary">
                 {data.info.stats.episodes.dub || "0"}
               </span>
             </p>
             <p>
-              Duration:{" "}
+              Durasi:{" "}
               <span className="font-semibold text-primary">
                 {data.moreInfo.duration}
               </span>
@@ -151,7 +151,7 @@ const BasicDetails = ({ data, page = "Details", className }) => {
           </div>
           <div className="flex flex-col justify-evenly max-md:justify-start items-center h-full w-[33%]">
             <p className="w-full text-nowrap">
-              Studios:{" "}
+              Studio:{" "}
               <span className="font-semibold text-primary uppercase">
                 {data.moreInfo.studios}
               </span>
