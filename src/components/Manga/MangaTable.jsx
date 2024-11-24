@@ -7,19 +7,19 @@ import { Skeleton } from "../ui/skeleton";
 const ReusableStack = ({ data }) => {
   const MetaData = [
     {
-      title: "Top Airing",
+      title: "Penayangan Teratas",
       index: 0,
     },
     {
-      title: "Most Popular",
+      title: "Paling Populer",
       index: 1,
     },
     {
-      title: "Most Favourite",
+      title: "Paling Favorite",
       index: 2,
     },
     {
-      title: "Most Completed",
+      title: "Paling Completed",
       index: 3,
     },
   ];
