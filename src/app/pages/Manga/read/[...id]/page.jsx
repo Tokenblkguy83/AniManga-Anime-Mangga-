@@ -72,7 +72,7 @@ const ReadPage = ({ params }) => {
               className="group-hover:mr-2 transition-full duration-100"
               icon={faLeftLong}
             />{" "}
-            Prev
+            Sebelumnya
           </Button>
           <Selector
             options={chapterData.chapterListIds}
@@ -84,7 +84,7 @@ const ReadPage = ({ params }) => {
             className="flex flex-row gap-1 group"
             onClick={() => handleNavigation(-1)}
           >
-            Next
+            Selanjutnya
             <FontAwesomeIcon
               className="group-hover:ml-2 duration-100 transition-full"
               icon={faRightLong}
@@ -117,13 +117,13 @@ const ReadPage = ({ params }) => {
                 className="group-hover:mr-2 transition-full duration-100"
                 icon={faLeftLong}
               />{" "}
-              Prev
+              Sebelumnya
             </Button>
             <Button
               className="flex flex-row gap-1 group"
               onClick={() => handleNavigation(-1)}
             >
-              Next
+              Selanjutnya
               <FontAwesomeIcon
                 className="group-hover:ml-2 transition-full duration-100"
                 icon={faRightLong}
