@@ -58,7 +58,7 @@ export default function ContinueWatching() {
   return (
     <div className="">
       <h2 className="text-3xl max-md:text-2xl font-semibold border-l-8 border-ring px-5 mb-6">
-        Continue Watching
+        Lanjut Menonton
       </h2>
       <Carousel
         opts={{
