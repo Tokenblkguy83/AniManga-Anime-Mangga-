@@ -13,7 +13,7 @@ import "swiper/css";
 const PromotionalVideos = ({ data }) => {
   return (
     <div className="flex flex-col w-full bg-neutral-700/30 rounded-md p-5 gap-10">
-      <h1 className="text-2xl">Promotional Videos</h1>
+      <h1 className="text-2xl">Vidio Promosi</h1>
       <div className="p-2 px-10">
         <Swiper
           breakpoints={{
