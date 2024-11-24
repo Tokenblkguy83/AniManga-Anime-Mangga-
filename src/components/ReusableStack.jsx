@@ -11,19 +11,19 @@ import { Skeleton } from "./ui/skeleton";
 const ReusableStack = ({ data }) => {
   const MetaData = [
     {
-      title: "Top Airing",
+      title: "Top Penayangan",
       index: 0,
     },
     {
-      title: "Most Popular",
+      title: "Paling Populer",
       index: 1,
     },
     {
-      title: "Most Favourite",
+      title: "Paling Favorit",
       index: 2,
     },
     {
-      title: "Most Completed",
+      title: "Terbaik Selesai",
       index: 3,
     },
   ];
