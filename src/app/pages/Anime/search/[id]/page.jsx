@@ -94,7 +94,7 @@ const Search = () => {
           value={searchQuery}
           onChange={() => setSearchQuery(event.target.value)}
           className="w-[180px] max-md:w-[150px] bg-input rounded-md"
-          placeholder="Search..."
+          placeholder="Mencari..."
         />
         <GenreSelector onClick={setGenres} />
         <TypeSelector onClick={setType} />
@@ -104,12 +104,12 @@ const Search = () => {
         <SeasonSelector onClick={setSeason} />
         <LanguageSelector onClick={setLang} />
         <SortSelector onClick={setSort} />
-        <YearSelector onClick={setStartYear} label="Start Year" />
-        <MonthSelector onClick={setStartMonth} label="Start Month" />
-        <DaySelector onClick={setStartDay} label="Start Day" />
-        <YearSelector onClick={setEndYear} label="End Year" />
-        <MonthSelector onClick={setEndMonth} label="End Month" />
-        <DaySelector onClick={setEndDay} label="End Day" />
+        <YearSelector onClick={setStartYear} label="Dimulai Tahun" />
+        <MonthSelector onClick={setStartMonth} label="Dimulai Bulan" />
+        <DaySelector onClick={setStartDay} label="Dimulai Hari" />
+        <YearSelector onClick={setEndYear} label="Berakhir Tahun" />
+        <MonthSelector onClick={setEndMonth} label="Berakhir Bulan" />
+        <DaySelector onClick={setEndDay} label="Berakhir Hari" />
       </div>
       <div className="grid grid-cols-7 max-md:grid-cols-2 place-items-center gap-5 p-5 bg-neutral-700/20 rounded-t-3xl">
         {searchData
