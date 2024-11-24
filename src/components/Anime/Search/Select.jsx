@@ -46,7 +46,7 @@ export const GenreSelector = ({ onClick }) => (
 );
 
 export const TypeSelector = ({ onClick }) => (
-  <Selector label="Type" options={['tv', "movie", 'ona', 'ova', 'special', 'music']} onClick={onClick} placeholder="Select Type" />
+  <Selector label="Tipe" options={['tv', "movie", 'ona', 'ova', 'special', 'music']} onClick={onClick} placeholder="Select Type" />
 );
 
 export const SortSelector = ({ onClick }) => (
@@ -58,15 +58,15 @@ export const SeasonSelector = ({ onClick }) => (
 );
 
 export const LanguageSelector = ({ onClick }) => (
-  <Selector label="Language" options={["sub", "dub", 'sub-dub']} onClick={onClick} placeholder="Select Language" />
+  <Selector label="Bahasa" options={["sub", "dub", 'sub-dub']} onClick={onClick} placeholder="Select Language" />
 );
 
 export const StatusSelector = ({ onClick }) => (
-  <Selector label="Status" options={["currently-airing", "finished-airing", "not-yet-aired"]} onClick={onClick} placeholder="Select Status" />
+  <Selector label="Status" options={["currently-airing", "finished-airing", "not-yet-aired"]} onClick={onClick} placeholder="Pilih Status" />
 );
 
 export const RatingSelector = ({ onClick }) => (
-  <Selector label="Rating" options={["g", "pg", "pg-13", "r", "r+"]} onClick={onClick} placeholder="Select Rating" />
+  <Selector label="Rating" options={["g", "pg", "pg-13", "r", "r+"]} onClick={onClick} placeholder="Pilih Rating" />
 );
 
 export const ScoreSelector = ({ onClick }) => (
@@ -75,13 +75,13 @@ export const ScoreSelector = ({ onClick }) => (
 
 // Date Selectors
 export const YearSelector = ({ onClick, label }) => (
-  <Selector label={label} options={generateRange(2000, 2030)} onClick={onClick} placeholder="Select Year" />
+  <Selector label={label} options={generateRange(2000, 2030)} onClick={onClick} placeholder="Pilih Tahun" />
 );
 
 export const MonthSelector = ({ onClick, label }) => (
-  <Selector label={label} options={generateRange(1, 12)} onClick={onClick} placeholder="Select Month" />
+  <Selector label={label} options={generateRange(1, 12)} onClick={onClick} placeholder="Pilih Bulan" />
 );
 
 export const DaySelector = ({ onClick, label }) => (
-  <Selector label={label} options={generateRange(1, 31)} onClick={onClick} placeholder="Select Day" />
+  <Selector label={label} options={generateRange(1, 31)} onClick={onClick} placeholder="Pilih Hari" />
 );
