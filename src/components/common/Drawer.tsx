@@ -30,7 +30,7 @@ export default function Drawer() {
           side={"left"}
         >
           <SheetHeader>
-            <h1 className="text-xl">AnYmeY</h1>
+            <h1 className="text-xl">AniManga</h1>
           </SheetHeader>
           <div className="mt-10 flex flex-col items-left gap-7">
             <SheetClose asChild>
