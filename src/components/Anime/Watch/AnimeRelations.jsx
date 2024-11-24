@@ -4,7 +4,7 @@ import React from "react";
 const AnimeRelations = ({ relations }) => {
   return (
     <div className="flex flex-col w-full p-5 bg-neutral-700/30 box-shadow rounded-md gap-10 animated">
-      <h1 className="text-3xl font-bold">Seasons</h1>
+      <h1 className="text-3xl font-bold">Musim</h1>
       <div className="grid grid-cols-2 max-md:grid-cols-1 grid-rows-auto place-items-center w-full gap-10">
         {relations.length > 0 ? relations.map((data) => (
           <div
@@ -19,7 +19,7 @@ const AnimeRelations = ({ relations }) => {
             <h1 className="absolute z-50 text-center" >{data.name}</h1>
             <Link href={`/pages/Anime/watch/${data.id}`} className="absolute w-full h-full rounded-lg transition-full seasonCard" />
           </div>
-        )) : <h1>No Season Aired Yet...</h1> }
+        )) : <h1>Tidak Ada Musim Tayang Sekarang...</h1> }
       </div>
     </div>
   );
