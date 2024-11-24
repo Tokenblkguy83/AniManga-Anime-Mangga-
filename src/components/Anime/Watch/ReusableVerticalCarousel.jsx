@@ -14,7 +14,7 @@ const VerticalReusableCarousel = ({ data, title }) => {
   return (
     <div className="flex flex-col p-3 gap-3 animated w-full h-[49%] max-h-[500px] bg-neutral-700/10 overflow-scroll custom-scrollbar rounded-md">
       <h1 className="text-xl">
-        <FontAwesomeIcon icon={title == "RELATED" ? faLayerGroup : faStar} />{" "}
+        <FontAwesomeIcon icon={title == "Serupa" ? faLayerGroup : faStar} />{" "}
         {title}
       </h1>
       <div className="flex flex-col gap-2">
