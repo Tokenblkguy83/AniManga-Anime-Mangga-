@@ -56,7 +56,7 @@ const EpisodeList = ({
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="rounded-lg bg-neutral-700/20 w-full"
-          placeholder={"Filter Episodes"}
+          placeholder={"Saring Episode"}
         />
         <Button onClick={handleListChange} variant={"secondary"} size={"icon"}>
           <FontAwesomeIcon className="px-5" icon={icons[currentListType]} />
